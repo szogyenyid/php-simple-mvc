@@ -1,0 +1,23 @@
+{
+    "name": "szogyenyid/php-simple-mvc",
+    "description": "A simple and lightweight MVC framework written in PHP",
+    "type": "library",
+    "keywords": ["php", "framework", "mvc"],
+    "homepage": "https://github.com/szogyenyid/php-simple-mvc",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Szogyenyid\\PhpSimpleMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "szogyenyid",
+            "email": "szogyenyid@gmail.com",
+            "homepage": "https://szogyenyid.dev"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
